@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0096C0328DD7A9D0072D6E4 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0096C0228DD7A9D0072D6E4 /* song.mp3 */; };
 		A08668AD28DC855C009BCEF4 /* SwiftUIAccessibilityDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08668AC28DC855C009BCEF4 /* SwiftUIAccessibilityDemoApp.swift */; };
 		A08668AF28DC855C009BCEF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08668AE28DC855C009BCEF4 /* ContentView.swift */; };
 		A08668B128DC8560009BCEF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08668B028DC8560009BCEF4 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0096C0228DD7A9D0072D6E4 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 		A08668A928DC855C009BCEF4 /* SwiftUIAccessibilityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAccessibilityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08668AC28DC855C009BCEF4 /* SwiftUIAccessibilityDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAccessibilityDemoApp.swift; sourceTree = "<group>"; };
 		A08668AE28DC855C009BCEF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0096C0428DD7AA50072D6E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A08668B028DC8560009BCEF4 /* Assets.xcassets */,
+				A0096C0228DD7A9D0072D6E4 /* song.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A08668A028DC855C009BCEF4 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +69,7 @@
 				A08668AC28DC855C009BCEF4 /* SwiftUIAccessibilityDemoApp.swift */,
 				A08668AE28DC855C009BCEF4 /* ContentView.swift */,
 				A08668BC28DC8CDF009BCEF4 /* Views */,
-				A08668B028DC8560009BCEF4 /* Assets.xcassets */,
+				A0096C0428DD7AA50072D6E4 /* Resources */,
 				A08668B228DC8560009BCEF4 /* Preview Content */,
 			);
 			path = SwiftUIAccessibilityDemo;
@@ -141,6 +152,7 @@
 			files = (
 				A08668B428DC8560009BCEF4 /* Preview Assets.xcassets in Resources */,
 				A08668B128DC8560009BCEF4 /* Assets.xcassets in Resources */,
+				A0096C0328DD7A9D0072D6E4 /* song.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

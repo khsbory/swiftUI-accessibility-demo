@@ -51,10 +51,24 @@ struct MusicPlayer: View {
             }
         }
         .onAppear {
-            let sound = Bundle.main.path(forResource: "song", ofType: "mp3")
-            self.audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+            let url = Bundle.main.url(forResource: "song", withExtension: "mp3")!
+            do {
+                try self.audioPlayer = AVAudioPlayer(contentsOf: url)
+            } catch {
+                   fatalError()
+            }
         }
         .navigationBarHidden(true)
+        .accessibilityAction(.magicTap) { // 접근성 적용 - 재생/정지
+            if self.audioPlayer.isPlaying {
+                self.audioPlayer.pause()
+            } else {
+                self.audioPlayer.play()
+            }
+        }
+        .accessibilityAction(.escape) { // 접근성 적용 - 뒤로 가기
+            self.presentationMode.wrappedValue.dismiss()
+        }
     }
 }
 struct MusicPlayer_Previews: PreviewProvider {

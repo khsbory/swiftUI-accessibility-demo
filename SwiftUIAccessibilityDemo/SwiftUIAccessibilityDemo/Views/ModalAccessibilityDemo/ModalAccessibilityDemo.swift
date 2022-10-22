@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// MARK: 네이티브 모달 버전
 struct ModalAccessibilityDemo: View {
     @State private var showModal = false
     @State private var isName = true
@@ -49,7 +50,7 @@ struct ModalAccessibilityDemo: View {
         }
         .navigationTitle("모달 접근성 데모")
         .sheet(isPresented: self.$showModal) {
-            ModalAccessibilitySubView(isName: self.$isName)
+            ModalAccessibilityModal(isName: self.$isName)
         }
         .onChange(of: self.showModal) { isShow in
             if !isShow {

@@ -14,7 +14,7 @@ struct ContentView: View {
                 NavigationLink(destination: MusicPlayer()) {
                     Text("뮤직 플레이어")
                 }
-                NavigationLink(destination: ModalAccessibilityDemo()) {
+                NavigationLink(destination: CustomModalAccessibilityDemo()) {
                     Text("모달 접근성 데모")
                 }
             }

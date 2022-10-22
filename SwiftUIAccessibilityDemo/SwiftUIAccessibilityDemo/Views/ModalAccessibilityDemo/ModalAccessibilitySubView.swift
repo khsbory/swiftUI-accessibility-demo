@@ -1,5 +1,5 @@
 //
-//  ModalAccessibilitySubView.swift
+//  ModalAccessibilityModal.swift
 //  SwiftUIAccessibilityDemo
 //
 //  Created by suni on 2022/10/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ModalAccessibilitySubView: View {
+struct ModalAccessibilityModal: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     @Binding var isName: Bool
     
@@ -26,8 +26,8 @@ struct ModalAccessibilitySubView: View {
     }
 }
 
-struct ModalAccessibilitySubView_Previews: PreviewProvider {
+struct ModalAccessibilityModal_Previews: PreviewProvider {
     static var previews: some View {
-        ModalAccessibilitySubView(isName: .constant(true))
+        ModalAccessibilityModal(isName: .constant(true))
     }
 }

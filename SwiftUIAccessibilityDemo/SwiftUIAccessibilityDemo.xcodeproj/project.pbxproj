@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A00272312903BA4D006D41C2 /* ModalAccessibilitySubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00272302903BA4D006D41C2 /* ModalAccessibilitySubView.swift */; };
 		A0096C0328DD7A9D0072D6E4 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0096C0228DD7A9D0072D6E4 /* song.mp3 */; };
+		A0797E612903E41D0011790A /* ModalAccessibilityCustomModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0797E602903E41D0011790A /* ModalAccessibilityCustomModal.swift */; };
+		A0797E632903E4A50011790A /* CustomModalAccessibilityDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0797E622903E4A50011790A /* CustomModalAccessibilityDemo.swift */; };
 		A08668AD28DC855C009BCEF4 /* SwiftUIAccessibilityDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08668AC28DC855C009BCEF4 /* SwiftUIAccessibilityDemoApp.swift */; };
 		A08668AF28DC855C009BCEF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08668AE28DC855C009BCEF4 /* ContentView.swift */; };
 		A08668B128DC8560009BCEF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08668B028DC8560009BCEF4 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		A00272302903BA4D006D41C2 /* ModalAccessibilitySubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalAccessibilitySubView.swift; sourceTree = "<group>"; };
 		A0096C0228DD7A9D0072D6E4 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		A0797E602903E41D0011790A /* ModalAccessibilityCustomModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalAccessibilityCustomModal.swift; sourceTree = "<group>"; };
+		A0797E622903E4A50011790A /* CustomModalAccessibilityDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModalAccessibilityDemo.swift; sourceTree = "<group>"; };
 		A08668A928DC855C009BCEF4 /* SwiftUIAccessibilityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAccessibilityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08668AC28DC855C009BCEF4 /* SwiftUIAccessibilityDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAccessibilityDemoApp.swift; sourceTree = "<group>"; };
 		A08668AE28DC855C009BCEF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 		EAAB34C0290293C700C09317 /* ModalAccessibilityDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A0797E622903E4A50011790A /* CustomModalAccessibilityDemo.swift */,
+				A0797E602903E41D0011790A /* ModalAccessibilityCustomModal.swift */,
 				EAAB34BD29028F3100C09317 /* ModalAccessibilityDemo.swift */,
 				A00272302903BA4D006D41C2 /* ModalAccessibilitySubView.swift */,
 			);
@@ -186,8 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A08668AF28DC855C009BCEF4 /* ContentView.swift in Sources */,
+				A0797E632903E4A50011790A /* CustomModalAccessibilityDemo.swift in Sources */,
 				A00272312903BA4D006D41C2 /* ModalAccessibilitySubView.swift in Sources */,
 				EAAB34BE29028F3100C09317 /* ModalAccessibilityDemo.swift in Sources */,
+				A0797E612903E41D0011790A /* ModalAccessibilityCustomModal.swift in Sources */,
 				A08668AD28DC855C009BCEF4 /* SwiftUIAccessibilityDemoApp.swift in Sources */,
 				A08668BB28DC8CD7009BCEF4 /* MusicPlayer.swift in Sources */,
 			);

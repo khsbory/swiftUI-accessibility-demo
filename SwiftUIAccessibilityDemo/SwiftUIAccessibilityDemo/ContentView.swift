@@ -14,6 +14,9 @@ struct ContentView: View {
                 NavigationLink(destination: MusicPlayer()) {
                     Text("뮤직 플레이어")
                 }
+                NavigationLink(destination: ModalAccessibilityDemo()) {
+                    Text("모달 접근성 데모")
+                }
             }
             .navigationBarTitle(Text("SwiftUI Accessibility Demo"), displayMode: .inline)
         }

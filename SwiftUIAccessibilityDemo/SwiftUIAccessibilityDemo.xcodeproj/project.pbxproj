@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00272312903BA4D006D41C2 /* ModalAccessibilitySubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00272302903BA4D006D41C2 /* ModalAccessibilitySubView.swift */; };
 		A0096C0328DD7A9D0072D6E4 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0096C0228DD7A9D0072D6E4 /* song.mp3 */; };
 		A08668AD28DC855C009BCEF4 /* SwiftUIAccessibilityDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08668AC28DC855C009BCEF4 /* SwiftUIAccessibilityDemoApp.swift */; };
 		A08668AF28DC855C009BCEF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08668AE28DC855C009BCEF4 /* ContentView.swift */; };
 		A08668B128DC8560009BCEF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08668B028DC8560009BCEF4 /* Assets.xcassets */; };
 		A08668B428DC8560009BCEF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08668B328DC8560009BCEF4 /* Preview Assets.xcassets */; };
 		A08668BB28DC8CD7009BCEF4 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08668BA28DC8CD7009BCEF4 /* MusicPlayer.swift */; };
+		EAAB34BE29028F3100C09317 /* ModalAccessibilityDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB34BD29028F3100C09317 /* ModalAccessibilityDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A00272302903BA4D006D41C2 /* ModalAccessibilitySubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalAccessibilitySubView.swift; sourceTree = "<group>"; };
 		A0096C0228DD7A9D0072D6E4 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 		A08668A928DC855C009BCEF4 /* SwiftUIAccessibilityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAccessibilityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08668AC28DC855C009BCEF4 /* SwiftUIAccessibilityDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAccessibilityDemoApp.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		A08668B328DC8560009BCEF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A08668BA28DC8CD7009BCEF4 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 		A08668BD28DC8FF8009BCEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EAAB34BD29028F3100C09317 /* ModalAccessibilityDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalAccessibilityDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +90,27 @@
 		A08668BC28DC8CDF009BCEF4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A08668BA28DC8CD7009BCEF4 /* MusicPlayer.swift */,
+				EAAB34C0290293C700C09317 /* ModalAccessibilityDemo */,
+				EAAB34BF290293B500C09317 /* MusicPlayer */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EAAB34BF290293B500C09317 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A08668BA28DC8CD7009BCEF4 /* MusicPlayer.swift */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		EAAB34C0290293C700C09317 /* ModalAccessibilityDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EAAB34BD29028F3100C09317 /* ModalAccessibilityDemo.swift */,
+				A00272302903BA4D006D41C2 /* ModalAccessibilitySubView.swift */,
+			);
+			path = ModalAccessibilityDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +186,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A08668AF28DC855C009BCEF4 /* ContentView.swift in Sources */,
+				A00272312903BA4D006D41C2 /* ModalAccessibilitySubView.swift in Sources */,
+				EAAB34BE29028F3100C09317 /* ModalAccessibilityDemo.swift in Sources */,
 				A08668AD28DC855C009BCEF4 /* SwiftUIAccessibilityDemoApp.swift in Sources */,
 				A08668BB28DC8CD7009BCEF4 /* MusicPlayer.swift in Sources */,
 			);
@@ -303,7 +327,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +358,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
